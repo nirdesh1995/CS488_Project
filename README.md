@@ -3,9 +3,9 @@ Stock Market analysis and prediction pipeline using sentiment analysis on differ
 
 
 ---
-![Architecture Diagram](software_architecture?raw=true "Architecture Diagram")
+![Architecture Diagram](software_architecture.png?raw=true "Architecture Diagram")
 
-![Data Collection](software_architecture?raw=true "Data Collection Method")
+![Data Collection](data_collection.png?raw=true "Data Collection Method")
 
 ##Demo
 Instructions for running are placed in demo.ipynb along with the output for a working version for the year 2010. 
