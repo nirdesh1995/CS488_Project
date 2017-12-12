@@ -15,10 +15,11 @@ Stock Market analysis and prediction pipeline using sentiment analysis on differ
 ## Functionalities
 
 * `compile_articles.py` -- takes start and end date to connect to Guardian API and downloads data. 
-* `compile_dataframes.py` -- Uses the articles collected from `Compile_articles` to create a combined dataframe for processing.
+* `compile_dataframes.py` -- Uses the articles collected from `compile_articles` to create a combined dataframe for processing.
 * `compile_stock_data.py` --  Connects to Yahoo finance API to collect data for 5 stock indices for a given timeframe.
-* `compile_sentiment_scores.py` -- Uses dataframe from `Compile_dataframe` to generate sentiment scores. 
+* `compile_sentiment_scores.py` -- Uses dataframe from `compile_dataframe` to generate sentiment scores. 
 * `visualize_and_predict.py` --- Visualizes and predicts results. 
 
+## Data Collection Method
 
 ![Data Collection](data_collection.png?raw=true "Data Collection Method")
